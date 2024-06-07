@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    # 驱动类名称
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 数据库连接的url
+    url: jdbc:mysql://81.70.59.131:3306/user_center?characterEncoding=utf8&useSSL=false
+    # 连接数据库的用户名
+    username: ivy
+    # 连接数据库的密码
+    password: Weimingyan.426
+  # session 失效时间
+  session:
+    timeout: 86400
+server:
+  address: 0.0.0.0
